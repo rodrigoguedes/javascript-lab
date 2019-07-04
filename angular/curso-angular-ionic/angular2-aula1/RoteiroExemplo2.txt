@@ -1,0 +1,27 @@
+
+
+    
+    26. Property Binding 7:37
+        currency-converter-start.zip
+        currency-converter-step1.zip
+    27. Properties vs Attributes 6:27
+    28. Event Binding 9:05
+        currency-converter-step2.zip
+    29. Two-Way Binding 10:21
+        currency-converter-step3.zip
+    30. Class and Style Binding 10:23
+        currency-converter-step4.zip
+    31. Helper Service 8:32
+        currency-converter-step5.zip
+    32. Component Property Binding 7:40
+        currency-converter-step6.zip
+    33. ngFor Directive 8:16
+        currency-converter-step7.zip
+    34. Component Event and Two-Way Binding 12:39
+        currency-converter-step8.zip
+    35. ngIf Directive 7:12
+        currency-converter-step9.zip
+    36. Built-In Pipes 8:33
+        currency-converter-step10.zip
+    37. Writing a Pipe 9:11
+        currency-converter-end.zip

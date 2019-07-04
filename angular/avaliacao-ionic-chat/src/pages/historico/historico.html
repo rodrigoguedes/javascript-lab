@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    </ion-buttons> 
+    <ion-title>Históricos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list inset>
+    <button ion-item *ngFor="let data of datas" (click)="seleciona(data)">
+      <!--{{item.data | date:'dd/MM/yyyy'}}-->
+      <!--{{data | date:'dd/MM/yyyy'}}-->
+      {{data}}
+    </button>
+  </ion-list>
+
+</ion-content>

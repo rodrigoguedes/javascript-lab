@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login - AppChat</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <form [formGroup]="formLogin" (ngSubmit)="entrar()">
+    <ion-list>
+        <ion-item>
+            <ion-label floating>Usuário</ion-label>
+            <ion-input type="text" formControlName='usuario'></ion-input>
+        </ion-item>
+    </ion-list>
+    <button type="submit" ion-button>Entrar</button>
+  </form>
+
+</ion-content>

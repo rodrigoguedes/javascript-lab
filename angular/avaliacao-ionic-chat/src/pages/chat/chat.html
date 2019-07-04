@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    </ion-buttons> 
+    <ion-title>Chat ({{usuario}})</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Mensagem</ion-label>
+      <ion-input type="text" [(ngModel)]="mensagem"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button (click)="enviarMsg()">Enviar</button>
+    </ion-item>
+    <ion-item *ngFor="let item of lista | async">
+      <p>{{item.texto}}</p>
+      <p>
+      <ion-note item-right>
+       {{ item.usuario }} {{item.data | date:'dd/MM/yyyy HH:mm'}}
+      </ion-note>
+      </p>
+    </ion-item>
+  </ion-list>
+</ion-content>

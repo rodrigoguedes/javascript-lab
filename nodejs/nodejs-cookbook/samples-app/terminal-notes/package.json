@@ -1,0 +1,14 @@
+{
+  "name": "terminal-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yargs-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Guedes de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.0"
+  }
+}

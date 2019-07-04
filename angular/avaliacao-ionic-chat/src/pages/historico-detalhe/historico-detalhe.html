@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    </ion-buttons> 
+    <ion-title>Mensagens do Dia {{data}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let item of mensagensDoDia">
+      <p>{{item.texto}}</p>
+      <p>
+      <ion-note item-right>
+       {{ item.usuario }} {{item.data | date:'HH:mm'}}
+      </ion-note>
+      </p>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
